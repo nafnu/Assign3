@@ -17,6 +17,7 @@ public class playerEle : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         check = firstCheck;
+
     }
 
     private void OnTriggerEnter2D(Collider2D co)
