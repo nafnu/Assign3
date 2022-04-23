@@ -30,6 +30,7 @@ public class playerEle : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //jump
         if (Input.GetKeyDown(KeyCode.UpArrow))
         {
             rb.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
