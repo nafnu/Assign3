@@ -5,13 +5,16 @@ using UnityEngine;
 public class keyOpen : MonoBehaviour
 {
 
-    public GameObject door;
+    public GameObject[] doors;
    
-    private void OnTriggerEnter2D(Collider2D collision)
+    private void OnTriggerEnter2D(Collider2D other)
     {
-        if (collision.CompareTag("Player"))
+        if (other.CompareTag("Player"))
         {
-            Destroy(door);
+            foreach (GameObject door in doors)
+            {
+                Destroy(door);
+            }
             Destroy(gameObject);
         }
     }

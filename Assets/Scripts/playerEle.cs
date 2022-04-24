@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class playerEle : MonoBehaviour
 {
 
@@ -11,10 +12,16 @@ public class playerEle : MonoBehaviour
     Transform check;
     public Transform firstCheck;
 
+    public static int points = 0;
+    public static int life = 3;
+    public static int maxScore = 10;
+    public static int minLife = 1;
+
     Rigidbody2D rb;
     // Start is called before the first frame update
     void Start()
     {
+
         rb = GetComponent<Rigidbody2D>();
         check = firstCheck;
 
@@ -84,8 +91,10 @@ public class playerEle : MonoBehaviour
             GetComponent<Rigidbody2D>().gravityScale =
                 Mathf.Abs(GetComponent<Rigidbody2D>().gravityScale);
             transform.position = check.position;
+            
+            life -= 1;
 
-        }
+         }
     }
 
     private void FixedUpdate()

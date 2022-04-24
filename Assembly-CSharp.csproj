@@ -54,16 +54,16 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\enemyMov.cs" />
+    <Compile Include="Assets\Scripts\keyOpen.cs" />
     <Compile Include="Assets\Scripts\killerPlayer.cs" />
+    <Compile Include="Assets\Scripts\spawn1.cs" />
     <Compile Include="Assets\Scripts\playerEle.cs" />
-    <Compile Include="Assets\Scripts\AudioManager.cs" />
-    <Compile Include="Assets\Scripts\Sound.cs" />
+    <Compile Include="Assets\Scripts\Pickup1.cs" />
+    <Compile Include="Assets\Scripts\button.cs" />
     <Compile Include="Assets\Scripts\life.cs" />
     <Compile Include="Assets\Scripts\inventory1.cs" />
     <Compile Include="Assets\Scripts\slot1.cs" />
-    <Compile Include="Assets\Scripts\Pickup1.cs" />
-    <Compile Include="Assets\Scripts\spawn1.cs" />
-    <Compile Include="Assets\Scripts\keyOpen.cs" />
+    <Compile Include="Assets\Scripts\control.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
