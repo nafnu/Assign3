@@ -9,7 +9,7 @@ public class killerPlayer : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        collider =GetComponent<Collider2D>();
+        collider = GetComponent<Collider2D>();
     }
 
     private void OnTriggerEnter2D(Collider2D collision)

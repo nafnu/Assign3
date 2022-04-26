@@ -15,7 +15,9 @@ public class life : MonoBehaviour
     void Start()
     {
         winner.GetComponent<UnityEngine.UI.Text>().text = " ";
-        
+
+        FindObjectOfType<AudioManager>().Play("background");
+
 
     }
 

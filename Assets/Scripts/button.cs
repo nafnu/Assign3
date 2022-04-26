@@ -5,6 +5,11 @@ using UnityEngine.SceneManagement;
 
 public class button : MonoBehaviour
 {
+    void Start()
+    {
+        FindObjectOfType<AudioManager>().Play("background");
+    }
+
     public void OnButton()
     {
         Debug.Log("Button was pressed");
