@@ -23,8 +23,7 @@ public class Pickup1 : MonoBehaviour
                     inventory1.isFull[i] = true; //set current slot to true
                     Instantiate(itemButton, inventory1.slots[i].transform, false); //create itembutton at slot position
                     Destroy(gameObject); //destroy pickup in world
-
-                         break;
+                    break;
                 }
 
              }

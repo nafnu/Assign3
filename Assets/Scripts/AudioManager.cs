@@ -10,7 +10,7 @@ public class AudioManager : MonoBehaviour
 
     public static AudioManager instance;
 
-    public void Awake()
+    void Awake()
     {
         if (instance == null)
         {

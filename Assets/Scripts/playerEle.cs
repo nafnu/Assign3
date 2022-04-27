@@ -21,7 +21,6 @@ public class playerEle : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-
         rb = GetComponent<Rigidbody2D>();
         check = firstCheck;
 
@@ -31,7 +30,7 @@ public class playerEle : MonoBehaviour
     {
         if (co.name == "checkpoint")
         {
-            check = co.transform;
+                check = co.transform;
         }
     }
 
@@ -93,8 +92,9 @@ public class playerEle : MonoBehaviour
             transform.position = check.position;
             
             life -= 1;
+   
 
-         }
+        }
     }
 
     private void FixedUpdate()
