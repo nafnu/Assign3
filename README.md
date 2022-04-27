@@ -1,7 +1,7 @@
 # Dumpo - game2D ![Dumpo](https://user-images.githubusercontent.com/65398774/165162841-87d6719a-4d8d-4dbc-9bba-f812fb97944a.png)
 # Continuous Assessment CA3 Unity- Game Design
 ## Student: Nathalie Flores - Id: 21520
-## Lecturer: Seamus Seamus Hickey
+## Lecturer: Seamus Hickey
 
 ## Assignment Description  
 Create a game prototype based around the Global Game Jam 2022 theme: "Duality" . <br>
